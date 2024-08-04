@@ -1,9 +1,12 @@
 import fs from "node:fs";
 import { Stack } from "./stack";
 
-const table = fs.readFileSync("./entry.csv", "utf-8").toString();
+const table = fs.readFileSync("./data/table.csv", "utf-8").toString();
 
-let userEntryAccept = "i+i*i$";
+let userEntryAccept = fs
+  .readFileSync("./data/input.txt", "utf-8")
+  .toString()
+  .trim();
 
 interface ReturnFunction {
   map: Map<string, string>;
