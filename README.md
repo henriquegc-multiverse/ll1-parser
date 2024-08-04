@@ -1,4 +1,22 @@
 ```sh
+E=TR
+
+R=+TR
+
+R=#
+
+T=FY
+
+Y=*FY
+
+Y=#
+
+F=(E)
+
+F=i
+```
+
+```sh
                           The LL(1) Parsing Table for the above grammer :-
                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
